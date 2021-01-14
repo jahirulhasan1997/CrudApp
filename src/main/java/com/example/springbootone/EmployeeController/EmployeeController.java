@@ -11,7 +11,7 @@ import com.example.springbootone.dao.UserRepository;
 import com.example.springbootone.entities.user;
 
 
-@CrossOrigin(origins = "http://localhost:3001")
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api/v1/")
 public class EmployeeController {
